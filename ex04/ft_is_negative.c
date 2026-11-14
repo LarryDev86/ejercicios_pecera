@@ -13,12 +13,12 @@ void	ft_is_negative(int n)
 		resultado = 'N';
 	}
 
-	write(1, &resultado&\n, 2);
+	write(1, &resultado, 1);
+	write(1, "\n", 1);
 }
 
 int	main()
 {
-	ft_is_negative(5);
-	ft_is_negative(-1);
+	ft_is_negative(-5);
 	return (0);
 }
